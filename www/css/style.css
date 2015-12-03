@@ -1,0 +1,86 @@
+/* POCKET-APP Style */
+
+/* Search */
+#searchBar{
+	background: #90C695;
+	color: white;
+}
+#searchBar input{
+	color: #333;
+}
+#searchBar input::-webkit-input-placeholder {
+   color: #333;
+}
+#searchBar input:-moz-placeholder { /* Firefox 18- */
+   color: #333;  
+}
+#searchBar input::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;  
+}
+#searchBar input:-ms-input-placeholder {  
+   color: #333;  
+}
+#searchBar .icon{
+	color: #333;
+}
+
+
+/* Venue Items */
+#venueItem{
+	background: #67809F;!important
+}
+#distance{
+	color: #22313F;
+	text-align: center;
+	font-size: smaller;
+	font-style: italic;
+}
+.larger {
+    font-size: larger;
+}
+
+/* Categories */
+#categoriesView h2.ng-binding{
+	margin: 0 auto;
+	width: auto;
+	color:black;
+	text-decoration: none;
+}
+#categoriesView p.ng-binding{
+	color:black;
+	font-style: italic;
+}
+#categories{
+	height: 150px;
+	background: blue;
+    margin-bottom: 0;
+    height: 150px;
+    text-align: center;
+    vertical-align: center;
+}
+#categoriesView a.categories{
+	text-decoration: none;
+}
+#categoriesView a.categories:active{
+	background: blue;
+}
+#categories .cat-name{
+
+	padding-top: 40px;
+}
+
+/* Maps */
+.scroll {
+  height: 100%;
+}
+
+/* Photos */
+.slider { height: 100%; text-align: center }
+
+/* Venue Details */
+#venueStats{
+	padding-top: 15px;
+}
+.venueStats{
+	background: #66CDAA;
+}

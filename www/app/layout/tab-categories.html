@@ -1,0 +1,25 @@
+<!--
+    Categories-Tab View 
+        -   The categories view contains a list of venues categories. 
+        -   The value of the list is generated from 'lists' arrays that consist of pre-defined categories
+            from foursquare venues categories and has its own unique id.
+        -   The structure of the list and the values based from the API:
+                        
+                        name            : [name]
+                        description     : [desc]
+                        categoryId      : [id]
+-->
+<ion-view view-title="Categories">
+    <ion-content class="">
+        <ion-list id="categoriesView">
+            <a class="categories" href="#/tab/categories/{{list.id}}" ng-repeat="list in lists">
+                <div id="categories" class="item-categories item-content.activated" ng-style="{'background-color': list.bg}">
+                    <div class="cat-name">
+                        <h2>{{list.name}}</h2>
+                        <p>{{list.desc}}</p>
+                    </div>
+                </div>
+            </a>
+        </ion-list>
+    </ion-content>
+</ion-view>

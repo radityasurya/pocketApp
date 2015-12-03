@@ -1,0 +1,79 @@
+<!--
+    Search-Tab View 
+-->
+<ion-view view-title="Search">
+    <ion-content class="padding">
+
+        <!-- 
+            Logo - using pocket-media logo.
+        -->
+        <div class="row">
+            <div class="col col-center">
+                <img src="img/logo.png" style="margin-left: auto;
+    margin-top: 20px;margin-right: auto;
+    display: block;">
+            </div>
+        </div>
+
+        <!-- 
+            Search bar 
+                -   search bar to filter the results using 
+                    'ng-model' directive as it is binds the input to another property.
+        -->
+        <div class="list list-inset">
+            <label id="searchBar" class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" ng-model="venueName" placeholder="Search Venues">
+            </label>
+        </div>
+
+        <!-- 
+            List Filter Option 
+
+                -   Filter option to lists the results in specific order:
+                        1. Favorites 
+                        based on the most visited location.
+                        2. Nearest
+                        based on the less distance to pocket-media.
+                -   The toggle function is created by using 'ng-class'. when the predicate option is chosen, the active css class will be registered.
+                    in order to set the predicated option, i used 'ng-click' and call a method to set the filter option.
+        -->
+        <div class="list list-inset">
+            <div class="button-bar">
+                <button ng-class="{'active': predicate == 'favorite'}" ng-click="setFilter('favorite')" class="button icon ion-android-favorite">
+                    Favorites
+                </button>
+                <button ng-class="{'active': predicate == 'nearest'}" ng-click="setFilter('nearest')" class="button icon ion-ios-location">
+                    Nearest
+                </button>
+            </div>
+        </div>
+
+        <!-- 
+            Result Lists
+
+                -   The list of venues from foursquare.com. The results is limited into 10 items in order to maintain visibility, and connected to the searchbar
+                    via filter directive 'filter:venueName'.
+                -   The value of the list is generated from 'venues' arrays and then the data is extracted using 'ng-repeat' that works as for-each function.
+                -   The see the details, the item will be redirected to another state called 'tab/search/[venue.id].
+                -   The structure of the list and the values based from the API:
+                        
+                        categories icon : [icon-prefix][size][icon-suffix]
+                        name            : [name]
+                        categories      : [categories][name]
+                        distance        : [location][distance]
+        -->
+        <ion-list>
+            <ion-item id="venueItem" class="item-avatar item-icon-right" type="item-text-wrap" 
+            ng-repeat="venue in venues | filter:venueName | orderBy:favorite | limitTo: 10" 
+            href="#/tab/search/{{venue.id}} " style="margin-bottom: 0px;>
+                <img ng-src="{{venue.categories[0].icon.prefix}}bg_64{{venue.categories[0].icon.suffix}} ">
+                <h2>{{venue.name}}</h2>
+                <p>{{venue.categories[0].name}}</p>
+                <span id="distance" class="icon icon-right ">
+                  {{(venue.location.distance)|number:0}} <br>meters
+                </span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

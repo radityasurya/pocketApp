@@ -1,0 +1,1272 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "565c2cd8498ef507addec9e1"
+    },
+    "notifications": [
+        {
+            "type": "notificationTray",
+            "item": {
+                "unreadCount": 1
+            }
+        }
+    ],
+    "response": {
+        "venues": [
+            {
+                "id": "4a26ff64f964a5206a7f1fe3",
+                "name": "Hard Rock Cafe Amsterdam",
+                "contact": {
+                    "phone": "+31205237625",
+                    "formattedPhone": "+31 20 523 7625",
+                    "twitter": "hardrock",
+                    "facebookUsername": "hardrock",
+                    "facebookName": "Hard Rock"
+                },
+                "location": {
+                    "address": "Max Euweplein 57-61",
+                    "lat": 52.362152797614065,
+                    "lng": 4.883044997685196,
+                    "distance": 1014,
+                    "postalCode": "1017 MA",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Max Euweplein 57-61",
+                        "1017 MA Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d14e941735",
+                        "name": "American Restaurant",
+                        "pluralName": "American Restaurants",
+                        "shortName": "American",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 26561,
+                    "usersCount": 22884,
+                    "tipCount": 300
+                },
+                "url": "http://www.facebook.com/hardrock",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 1,
+                    "items": [
+                        {
+                            "id": "52fb61f8498e35de56e9a19d",
+                            "type": "frequency",
+                            "message": "Receive complimentary gift with merchandise purchase over EUR 25. Unlocked every check-in  Must unlock offer & show to Retail associate at time of purchase. Receipts cannot be combined to make offer.",
+                            "photo": {
+                                "id": "52fb61f711d268521ba7fcc1",
+                                "createdAt": 1392206327,
+                                "prefix": "https://irs2.4sqi.net/img/general/",
+                                "suffix": "/1519788_AEGJvRmBjYRitXlhG4ebqdOaRaamjD5z9E_sBY3wZxc.jpg",
+                                "width": 650,
+                                "height": 651
+                            },
+                            "description": "",
+                            "unlocked": true,
+                            "icon": "default",
+                            "title": "Special",
+                            "state": "unlocked",
+                            "provider": "foursquare",
+                            "redemption": "webview",
+                            "interaction": {
+                                "entryUrl": "https://foursquare.com/device/specials/52fb61f8498e35de56e9a19d?venueId=4a26ff64f964a5206a7f1fe3"
+                            }
+                        }
+                    ]
+                },
+                "storeId": "",
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "556a337ba7c8957d73d4b6b4"
+                    }
+                ]
+            },
+            {
+                "id": "5426aaed498e51a58d410874",
+                "name": "Foodhallen",
+                "contact": {
+                    "facebook": "614358118638285",
+                    "facebookUsername": "foodhallen",
+                    "facebookName": "De Foodhallen"
+                },
+                "location": {
+                    "address": "Hannie Dankbaarpassage 16",
+                    "lat": 52.3669953745604,
+                    "lng": 4.868127341657052,
+                    "distance": 308,
+                    "postalCode": "1053 AT",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Hannie Dankbaarpassage 16",
+                        "1053 AT Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d120951735",
+                        "name": "Food Court",
+                        "pluralName": "Food Courts",
+                        "shortName": "Food Court",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/food_foodcourt_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 4404,
+                    "usersCount": 2831,
+                    "tipCount": 118
+                },
+                "url": "http://www.foodhallen.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "52d1ab33498ee52eed94c36c",
+                "name": "The Bulldog Coffeeshop",
+                "contact": {},
+                "location": {
+                    "address": "Leidseplein 15, 1017 PS",
+                    "lat": 52.37315487201266,
+                    "lng": 4.89768306914263,
+                    "distance": 2217,
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Leidseplein 15, 1017 PS",
+                        "Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "52c71aaf3cf9994f4e043d17",
+                        "name": "Marijuana Dispensary",
+                        "pluralName": "Marijuana Dispensaries",
+                        "shortName": "Dispensary",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/dispensary_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 3201,
+                    "usersCount": 2836,
+                    "tipCount": 27
+                },
+                "url": "http://www.thebulldog.com",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "4a270711f964a520e28c1fe3",
+                "name": "Holland Casino",
+                "contact": {
+                    "phone": "+31205211111",
+                    "formattedPhone": "+31 20 521 1111",
+                    "twitter": "hollandcasino"
+                },
+                "location": {
+                    "address": "Max Euweplein 62",
+                    "lat": 52.36244528622588,
+                    "lng": 4.882242679595947,
+                    "distance": 954,
+                    "postalCode": "1017 MB",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Max Euweplein 62",
+                        "1017 MB Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d17c941735",
+                        "name": "Casino",
+                        "pluralName": "Casinos",
+                        "shortName": "Casino",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/casino_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 7354,
+                    "usersCount": 5013,
+                    "tipCount": 53
+                },
+                "url": "http://t.co/95iBBPolcz",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "storeId": "",
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "5568f209a7c8a9cf8ec441f8"
+                    }
+                ]
+            },
+            {
+                "id": "4ae16a0ff964a520138621e3",
+                "name": "Station Amsterdam Muiderpoort",
+                "contact": {
+                    "twitter": "ns_stations"
+                },
+                "location": {
+                    "address": "Oosterspoorplein 1",
+                    "lat": 52.360619378447666,
+                    "lng": 4.931746970069321,
+                    "distance": 4317,
+                    "postalCode": "1093 JW",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Oosterspoorplein 1",
+                        "1093 JW Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d129951735",
+                        "name": "Train Station",
+                        "pluralName": "Train Stations",
+                        "shortName": "Train Station",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/trainstation_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 15488,
+                    "usersCount": 3263,
+                    "tipCount": 23
+                },
+                "url": "http://www.ns.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "556cfb16aceaff43eb066785"
+                    }
+                ]
+            },
+            {
+                "id": "4f019124a69d45461f2458e7",
+                "name": "Starbucks",
+                "contact": {
+                    "phone": "+31205287755",
+                    "formattedPhone": "+31 20 528 7755",
+                    "twitter": "starbucksned"
+                },
+                "location": {
+                    "address": "Utrechtsestraat 9",
+                    "crossStreet": "The Bank - Concept Store",
+                    "lat": 52.36599617447388,
+                    "lng": 4.89715576171875,
+                    "distance": 1956,
+                    "postalCode": "1017 CV",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Utrechtsestraat 9 (The Bank - Concept Store)",
+                        "1017 CV Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 13514,
+                    "usersCount": 7570,
+                    "tipCount": 171
+                },
+                "url": "http://www.starbucks.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 3,
+                    "summary": "3 people are here",
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 3,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "556f676fbd6a75a99038d8ec"
+                    }
+                ]
+            },
+            {
+                "id": "5469d905498e1d8582248d55",
+                "name": "C.T. - Coffee & Coconuts",
+                "contact": {
+                    "phone": "+31203541104",
+                    "formattedPhone": "+31 20 354 1104",
+                    "facebook": "309105592606476",
+                    "facebookUsername": "CTcoffeeandcoconuts",
+                    "facebookName": "C • T  coffee & coconuts"
+                },
+                "location": {
+                    "address": "Ceintuurbaan 282-284",
+                    "crossStreet": "Ferdinand Bolstraat",
+                    "lat": 52.35268783569336,
+                    "lng": 4.891538143157959,
+                    "distance": 2025,
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Ceintuurbaan 282-284 (Ferdinand Bolstraat)",
+                        "Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 1772,
+                    "usersCount": 1193,
+                    "tipCount": 114
+                },
+                "url": "http://www.ctamsterdam.nl",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "View Menu",
+                    "url": "http://www.ctamsterdam.nl/Ceintuur-Theater-Coffee-and-Coconuts-menu-EN.pdf",
+                    "mobileUrl": "http://www.ctamsterdam.nl/Ceintuur-Theater-Coffee-and-Coconuts-menu-EN.pdf",
+                    "externalUrl": "http://www.ctamsterdam.nl/Ceintuur-Theater-Coffee-and-Coconuts-menu-EN.pdf"
+                },
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 1,
+                    "summary": "One other person is here",
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "53c3e8a9498eb95bbf25506a",
+                "name": "Corendon Vitality Hotel Amsterdam",
+                "contact": {
+                    "phone": "+31237510686",
+                    "formattedPhone": "+31 23 751 0686",
+                    "twitter": "corendonvital"
+                },
+                "location": {
+                    "address": "Aletta Jacobslaan 7",
+                    "lat": 52.346662098979095,
+                    "lng": 4.830880321127139,
+                    "distance": 3221,
+                    "postalCode": "1066 BP",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Aletta Jacobslaan 7",
+                        "1066 BP Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "shortName": "Hotel",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 907,
+                    "usersCount": 535,
+                    "tipCount": 19
+                },
+                "url": "http://www.corendonhotels.com",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "venuePage": {
+                    "id": "92012191"
+                },
+                "hereNow": {
+                    "count": 3,
+                    "summary": "3 people are here",
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 3,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "529634bc11d2ab5263ab848c",
+                "name": "Starbucks",
+                "contact": {},
+                "location": {
+                    "address": "Damrak 80-81",
+                    "lat": 52.37416071131032,
+                    "lng": 4.8944690124272165,
+                    "distance": 2081,
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Damrak 80-81",
+                        "Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1e0931735",
+                        "name": "Coffee Shop",
+                        "pluralName": "Coffee Shops",
+                        "shortName": "Coffee Shop",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 5602,
+                    "usersCount": 4776,
+                    "tipCount": 57
+                },
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "556f676fbd6a75a99038d8ec"
+                    }
+                ]
+            },
+            {
+                "id": "4a2706b1f964a520a98b1fe3",
+                "name": "Novotel Hotel Amsterdam City",
+                "contact": {
+                    "phone": "+31207219179",
+                    "formattedPhone": "+31 20 721 9179",
+                    "twitter": "novotelnl"
+                },
+                "location": {
+                    "address": "Europaboulevard 10",
+                    "crossStreet": "De Boelelaan",
+                    "lat": 52.33436881227468,
+                    "lng": 4.889087677001953,
+                    "distance": 3607,
+                    "postalCode": "1083 AD",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Europaboulevard 10 (De Boelelaan)",
+                        "1083 AD Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "shortName": "Hotel",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 7552,
+                    "usersCount": 3608,
+                    "tipCount": 79
+                },
+                "url": "http://www.novotel.com",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "storeId": "",
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": [
+                    {
+                        "id": "556f3df4bd6a007c7738034d"
+                    }
+                ]
+            },
+            {
+                "id": "4a3a8958f964a520f49f1fe3",
+                "name": "Pakhuis De Zwijger",
+                "contact": {
+                    "phone": "+31207884440",
+                    "formattedPhone": "+31 20 788 4440",
+                    "twitter": "de_zwijger",
+                    "facebook": "196500190388300",
+                    "facebookUsername": "pakhuis.dezwijger",
+                    "facebookName": "Pakhuis de Zwijger"
+                },
+                "location": {
+                    "address": "Piet Heinkade 179",
+                    "lat": 52.37668642458468,
+                    "lng": 4.922218322753906,
+                    "distance": 3904,
+                    "postalCode": "1019 HC",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Piet Heinkade 179",
+                        "1019 HC Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1ff931735",
+                        "name": "Convention Center",
+                        "pluralName": "Convention Centers",
+                        "shortName": "Convention Center",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/building/conventioncenter_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 11321,
+                    "usersCount": 4473,
+                    "tipCount": 64
+                },
+                "url": "http://www.dezwijger.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "venuePage": {
+                    "id": "67720914"
+                },
+                "hereNow": {
+                    "count": 1,
+                    "summary": "One other person is here",
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "4bfbb88365fbc9b640b2916c",
+                "name": "The Bulldog",
+                "contact": {
+                    "phone": "+31206248248",
+                    "formattedPhone": "+31 20 624 8248"
+                },
+                "location": {
+                    "address": "Oudezijds Voorburgwal 90",
+                    "lat": 52.37253050424677,
+                    "lng": 4.896249175071716,
+                    "distance": 2098,
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Oudezijds Voorburgwal 90",
+                        "Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "52c71aaf3cf9994f4e043d17",
+                        "name": "Marijuana Dispensary",
+                        "pluralName": "Marijuana Dispensaries",
+                        "shortName": "Dispensary",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/dispensary_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 3274,
+                    "usersCount": 2866,
+                    "tipCount": 28
+                },
+                "url": "http://www.thebulldog.com",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "5033e25be4b0e414aac29ad5",
+                "name": "Majestic",
+                "contact": {
+                    "phone": "+31208888883",
+                    "formattedPhone": "+31 20 888 8883"
+                },
+                "location": {
+                    "address": "Dam 3-7",
+                    "lat": 52.37309545728369,
+                    "lng": 4.893912971019745,
+                    "distance": 1988,
+                    "postalCode": "1012JS",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Dam 3-7",
+                        "1012JS Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d155941735",
+                        "name": "Gastropub",
+                        "pluralName": "Gastropubs",
+                        "shortName": "Gastropub",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/gastropub_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 6109,
+                    "usersCount": 5279,
+                    "tipCount": 88
+                },
+                "url": "http://www.amsterdam-dam.com/majestic/",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "5167ec43498e4dd8f8e19275",
+                "name": "Bakers & Roasters",
+                "contact": {
+                    "phone": "+31614699645",
+                    "formattedPhone": "+31 6 14699645"
+                },
+                "location": {
+                    "address": "Eerste Jacob van Campenstraat 54",
+                    "crossStreet": "Ferdinand Bolstraat",
+                    "lat": 52.357298612320974,
+                    "lng": 4.889967441558838,
+                    "distance": 1650,
+                    "postalCode": "1072 BH",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Eerste Jacob van Campenstraat 54 (Ferdinand Bolstraat)",
+                        "1072 BH Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d143941735",
+                        "name": "Breakfast Spot",
+                        "pluralName": "Breakfast Spots",
+                        "shortName": "Breakfast",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/breakfast_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 2449,
+                    "usersCount": 1629,
+                    "tipCount": 192
+                },
+                "url": "http://www.bakersandroasters.com",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "4a27079bf964a5205d8e1fe3",
+                "name": "Winkel 43",
+                "contact": {
+                    "phone": "+31206230223",
+                    "formattedPhone": "+31 20 623 0223",
+                    "twitter": "winkel43",
+                    "facebook": "178786845500715",
+                    "facebookUsername": "Winkel43",
+                    "facebookName": "Café Winkel 43"
+                },
+                "location": {
+                    "address": "Noordermarkt 43",
+                    "crossStreet": "at Westerstraat",
+                    "lat": 52.37910316294599,
+                    "lng": 4.886308908462524,
+                    "distance": 2049,
+                    "postalCode": "1015 NA",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Noordermarkt 43 (at Westerstraat)",
+                        "1015 NA Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 6871,
+                    "usersCount": 4885,
+                    "tipCount": 313
+                },
+                "url": "http://www.winkel43.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "venuePage": {
+                    "id": "33247208"
+                },
+                "storeId": "",
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "52b4992c498e1fcafab3eee5",
+                "name": "Volkshotel",
+                "contact": {
+                    "phone": "+31204715745",
+                    "formattedPhone": "+31 20 471 5745",
+                    "twitter": "volkshotel",
+                    "facebook": "710224378993492",
+                    "facebookUsername": "Volkshotel",
+                    "facebookName": "Volkshotel"
+                },
+                "location": {
+                    "address": "Wibautstraat 150",
+                    "lat": 52.35382670336075,
+                    "lng": 4.912160765574732,
+                    "distance": 3185,
+                    "postalCode": "1091GR",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Wibautstraat 150",
+                        "1091GR Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1fa931735",
+                        "name": "Hotel",
+                        "pluralName": "Hotels",
+                        "shortName": "Hotel",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 2314,
+                    "usersCount": 1393,
+                    "tipCount": 47
+                },
+                "url": "http://www.volkshotel.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "venuePage": {
+                    "id": "89507944"
+                },
+                "hereNow": {
+                    "count": 1,
+                    "summary": "One other person is here",
+                    "groups": [
+                        {
+                            "type": "others",
+                            "name": "Other people here",
+                            "count": 1,
+                            "items": []
+                        }
+                    ]
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "4a26ff58f964a5202a7f1fe3",
+                "name": "Café de Jaren",
+                "contact": {
+                    "phone": "+31206255771",
+                    "formattedPhone": "+31 20 625 5771",
+                    "twitter": "cafedejarennl",
+                    "facebook": "216267045053639",
+                    "facebookName": "Café De Jaren"
+                },
+                "location": {
+                    "address": "Nieuwe Doelenstraat 20-22",
+                    "lat": 52.36790580539269,
+                    "lng": 4.895600080490112,
+                    "distance": 1885,
+                    "postalCode": "1012 CP",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Nieuwe Doelenstraat 20-22",
+                        "1012 CP Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d16d941735",
+                        "name": "Café",
+                        "pluralName": "Cafés",
+                        "shortName": "Café",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 9317,
+                    "usersCount": 6493,
+                    "tipCount": 212
+                },
+                "url": "http://www.cafedejaren.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "512bf050e0e22f13624b5ecf",
+                "name": "Omelegg - De Pijp",
+                "contact": {
+                    "phone": "+31203701134",
+                    "formattedPhone": "+31 20 370 1134",
+                    "twitter": "omelegg",
+                    "facebook": "118764321604856",
+                    "facebookUsername": "omelegg",
+                    "facebookName": "Omelegg"
+                },
+                "location": {
+                    "address": "Ferdinand Bolstraat 143",
+                    "crossStreet": "Van Ostadestraat",
+                    "lat": 52.351797462363756,
+                    "lng": 4.891480207443237,
+                    "distance": 2086,
+                    "postalCode": "1072 LH",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Ferdinand Bolstraat 143 (Van Ostadestraat)",
+                        "1072 LH Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d143941735",
+                        "name": "Breakfast Spot",
+                        "pluralName": "Breakfast Spots",
+                        "shortName": "Breakfast",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/breakfast_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": true,
+                "stats": {
+                    "checkinsCount": 2286,
+                    "usersCount": 1760,
+                    "tipCount": 180
+                },
+                "url": "http://www.omelegg.com",
+                "menu": {
+                    "type": "Menu",
+                    "label": "Menu",
+                    "anchor": "View Menu",
+                    "url": "http://www.omelegg.com/wp-content/uploads/yootheme/demo/gallery/omelegg-amsterdam-menu-english.jpg",
+                    "mobileUrl": "http://www.omelegg.com/wp-content/uploads/yootheme/demo/gallery/omelegg-amsterdam-menu-english.jpg",
+                    "externalUrl": "http://www.omelegg.com/wp-content/uploads/yootheme/demo/gallery/omelegg-amsterdam-menu-english.jpg"
+                },
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "venuePage": {
+                    "id": "49221524"
+                },
+                "storeId": "",
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "4a26ffc2f964a520e0801fe3",
+                "name": "Proeflokaal Arendsnest",
+                "contact": {
+                    "phone": "+31204212057",
+                    "formattedPhone": "+31 20 421 2057",
+                    "twitter": "cafearendsnest",
+                    "facebook": "361299453939119",
+                    "facebookUsername": "arendsnest",
+                    "facebookName": "Proeflokaal Arendsnest"
+                },
+                "location": {
+                    "address": "Herengracht 90",
+                    "lat": 52.37672572220125,
+                    "lng": 4.889296889305115,
+                    "distance": 1981,
+                    "postalCode": "1015 BS",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Herengracht 90",
+                        "1015 BS Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d116941735",
+                        "name": "Bar",
+                        "pluralName": "Bars",
+                        "shortName": "Bar",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 4287,
+                    "usersCount": 2819,
+                    "tipCount": 145
+                },
+                "url": "http://www.arendsnest.nl",
+                "allowMenuUrlEdit": true,
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            },
+            {
+                "id": "5336fe68498e18d7e65f5803",
+                "name": "Cannibale Royale",
+                "contact": {
+                    "phone": "+31617716455",
+                    "formattedPhone": "+31 6 17716455",
+                    "facebook": "702621366438275",
+                    "facebookUsername": "CannibaleRoyale",
+                    "facebookName": "Cannibale Royale"
+                },
+                "location": {
+                    "address": "Handboogstraat 17-A",
+                    "lat": 52.367912,
+                    "lng": 4.890271,
+                    "distance": 1534,
+                    "postalCode": "1012 XM",
+                    "cc": "NL",
+                    "city": "Amsterdam",
+                    "state": "North Holland",
+                    "country": "Netherlands",
+                    "formattedAddress": [
+                        "Handboogstraat 17-A",
+                        "1012 XM Amsterdam"
+                    ]
+                },
+                "categories": [
+                    {
+                        "id": "4bf58dd8d48988d1cc941735",
+                        "name": "Steakhouse",
+                        "pluralName": "Steakhouses",
+                        "shortName": "Steakhouse",
+                        "icon": {
+                            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+                            "suffix": ".png"
+                        },
+                        "primary": true
+                    }
+                ],
+                "verified": false,
+                "stats": {
+                    "checkinsCount": 1767,
+                    "usersCount": 1266,
+                    "tipCount": 147
+                },
+                "url": "http://www.cannibaleroyale.nl",
+                "allowMenuUrlEdit": true,
+                "beenHere": {
+                    "count": 0,
+                    "marked": true
+                },
+                "specials": {
+                    "count": 0,
+                    "items": []
+                },
+                "hereNow": {
+                    "count": 0,
+                    "summary": "Nobody here",
+                    "groups": []
+                },
+                "referralId": "v-1448881368",
+                "venueChains": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+<!--
+    Venue Details View 
+-->
+<ion-view>
+    <!--
+        Navbar 
+            - The navbar will contain back button, if it's view is a child of another state.
+    -->
+    <ion-nav-title>
+        {{venue.name}}
+    </ion-nav-title>
+    <ion-content>
+
+        <!-- 
+            Venue Details 
+                - Venue details wrapper.
+        -->
+        <div id="venueDetails" class="list card">
+            <!-- 
+                Venue Info 
+                    - This section holds the venues info, such as name, categories, address and etc.
+                    - The structure for the info:
+                        [category icon]
+                        [name]
+                        [categories]
+                        [address][postCode]
+                        [country]
+                        [description] - if exists it will be shown using 'ng-show'.
+            -->    
+            <a id="venueInfo" class="item item-avatar-left" style="background: #66CDAA">
+                <img ng-src="{{venue.categories[0].icon.prefix}}bg_64{{venue.categories[0].icon.suffix}}">
+                <h2>{{venue.name}}</h2>
+                <p>{{venue.categories[0].name}}</p>
+                <p>{{venue.location.address}}, {{venue.location.postalCode}}</p>
+                <p>{{venue.location.country}}</p>
+            </a>
+            <div id="venueDescription" class="item" ng-show="venue.description">
+                <p style="white-space: normal;">{{venue.description}}</p>
+            </div>
+
+            <!--
+                Venue Stats 
+                    - Venue stats, consist of how many likes, number of people checking in and the venue ratings
+                    - The rating is calculated from [total user counted] / [people who checked in]
+                    - The structure for the stats:
+                        [likes] [rating] [checkins]
+            -->
+            <div id="venueStats" class="row" style="background: #66CDAA" align="center">
+                <div class="col venueStats">
+                    <span class="badge badge-assertive">{{venue.likes.count}} <br>Likes</span>
+                </div>
+                <div class="col venueStats">
+                    <p class="badge badge-assertive">{{(venue.stats.usersCount / venue.stats.checkinsCount * 10) | number:1}} <br>Ratings</p>
+                </div>
+                <div class="col venueStats">
+                    <p class="badge badge-assertive">{{venue.stats.checkinsCount}} <br>Checkins</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 
+            Venue Photos 
+                - Collection of photos that foursquare's user post for this venue.
+        -->
+        <div class="list card" ng-show="photos" style="margin-bottom: 20px;">
+            <div class="item item-divider">Photos</div>
+
+            <!-- 
+                Photos Slider 
+                    - in order to create a showcase for the photo, i used ion-scroll with x-direction scrolling,
+                    so it works like photo-slider.
+                    - the data is loaded from foursquare API.
+                    - the image format for this photo:
+                        [prefix][size][suffix]
+            -->
+            <ion-scroll direction="x" class="available-scroller" style="height: 240px; background: #fff">
+                <div class="photo" collection-repeat="photo in photos" item-height="240" item-width="244">
+                    <img ng-src="{{photo.prefix}}240x240{{photo.suffix}}">
+                </div>
+            </ion-scroll>
+        </div>
+
+        <!-- 
+            Venue Location 
+                - the location of the venue. Consist of the map location, and the url of the venue website.
+        -->
+        <div class="list card">
+            <div class="item item-divider">
+                Location
+            </div>
+
+            <!-- 
+                Venue Map 
+                    - for the venue map I used googlemaps javascript to load certain position.
+                    - I used 'ng-cloak' to help initialize the maps rendering.
+            -->
+            <div class="item" ng-controller="MapCtrl" style="padding: 0;">
+                <div ng-init="init(venue.location.lat, venue.location.lng)">
+                    <div id="map" style="width:100%;height:250px" data-tap-disabled="true" ng-cloak></div>
+                </div>
+            </div>
+
+            <!-- 
+                Venue Contact Details 
+                    - if the maps not loaded, there is a button for opening the map on google maps browser/app.
+                    or if you want to check the venue website you could tap the web button.
+            -->
+            <div class="item row">
+                <div class="col" style="text-align: center;">
+                    <a ng-href="http://maps.google.com/maps?daddr={{venue.location.lat}},{{venue.location.lng}}" class="button button-clear button-dark">
+                        <i class="icon ion-map"></i>
+                    </a>
+                </div>
+                <div class="col" style="text-align: center;">
+                    <a ng-href="{{venue.url}}" class="button button-clear button-dark">
+                        <i class="icon ion-ios-world-outline"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
